@@ -6,8 +6,8 @@
 <html>
     <head>
         <title>Survey Data</title>
+        <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="all.css">
-      <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
     </head>
     <header>
     <a href="Survey.php"><button id="add">Complete A Survey?</button></a>
