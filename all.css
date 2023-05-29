@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.help{
+    justify-content: right;
+    position: absolute;
+    right: 0;
+    margin-top: 30pt;
+    margin-right: 9pt;
+    background-color: lightseagreen;
+    padding: 3pt;
+    border: 2pt solid lightseagreen;
+    border-radius: 0.5rem;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    width: 200px;
+    border: 2pt solid royalblue;
+    border-radius: 0.5rem;
+    padding: 5pt;
+    margin-top: 10pt;
+    align-items: center;
+    text-align: center;
+}
+/*
+Above is the code Main page
+Below is the code for Survey page
+*/
+header{
+    margin: 10pt;
+}
+.inputBarier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    padding-top: 17pt;
+    padding-bottom: 17pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+.inputContainer {
+    position: relative;
+    width: 260pt;
+    height: 20pt;
+    margin-bottom: 10pt;
+   
+    
+}
+.inputContainer .inputs {
+    position: absolute;
+    border: 2pt solid skyblue;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 5pt;
+    padding-left: 7pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 14pt rgb(128, 128, 128);
+}
+
+
+.inputContainer .labels {
+    position: absolute;
+    top: 9pt;
+    left: 12pt;
+    font: 10pt solid rgb(128, 128, 128);
+    font-size: 11pt;
+    cursor: text;
+}
+.inputs:focus~.inputs {
+    border: 2pt solid royalblue;
+}
+
+.inputs:focus~.labels {
+    top: -6pt;
+    font-size: 10pt;
+    background-color: white;
+    padding-left: 3pt;
+    padding-right: 3pt;
+}
+
+.inputs:not(:focus).inputs:not(:placeholder-shown)~.labels {
+    top: -6pt;
+    font-size: 9pt;
+    background-color: grey;
+    padding-left: 2pt;
+    padding-right: 2pt;
+}
+.list{
+    margin-top: 6pt;
+}
+.list label{
+    padding-bottom: 5pt;
+}
+table{
+    margin-top: 6pt;
+}
+
+thead{
+    background-color: gray;
+    border: 2pt solid gray;
+}
+
+td, th{
+    align-items: center;
+    text-align: center;
+    padding: 2pt;
+}
+
+#add{
+    width: 130pt;
+    height: 25pt;
+    text-align: center;
+    border-radius: 0.2rem;
+    background-color: royalblue;
+
+}
+#add:hover{
+   background-color: skyblue;
+   border: solid 2pt skyblue;
+    
+}
+/*
+Above is css for survey page 
+Below is css for Results page
+*/
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    margin-top: 15pt;
+    text-decoration: cornflowerblue;
+}
+h3{
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: 15pt;
+}
+.helpContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22pt;
+}
+dd{
+    padding-left: 40pt;
+    padding-top: 8pt;
+    padding-bottom: 12t;
+}
+ol{
+    margin-left: 35pt;
+    margin-top: 4pt;
+    margin-bottom: 5pt;
+}
